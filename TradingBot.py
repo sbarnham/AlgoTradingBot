@@ -42,6 +42,6 @@ def interface():
             listPositions()
         if choice == '3':
             asset = input('Enter desired stock by symbol ')
-            getAssetKeyData(asset)
+            getAssetTrades(asset)
 
 interface()
